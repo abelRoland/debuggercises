@@ -2,7 +2,7 @@
 
 ## /exercises/08-block-scope 
 
-> 6/16/2020, 5:30:33 PM 
+> 6/17/2020, 11:05:12 AM 
 
 [../README.md](../README.md)
 

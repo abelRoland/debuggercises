@@ -2,7 +2,7 @@
 
 ## /exercises 
 
-> 6/16/2020, 5:30:33 PM 
+> 6/17/2020, 11:05:12 AM 
 
 [../README.md](../README.md)
 
@@ -12,11 +12,11 @@
     - [/2-reusing-variables.js](./01-variables/examples/README.md#2-reusing-variablesjs)  
     - [/3-const-vs-let.js](./01-variables/examples/README.md#3-const-vs-letjs) - _error_ 
   - [/exercises](./01-variables/exercises/README.md)
-    - [/1-let.js](./01-variables/exercises/README.md#1-letjs) - _incomplete_ 
-    - [/2-let.js](./01-variables/exercises/README.md#2-letjs) - _incomplete_ 
-    - [/3-let-or-const.js](./01-variables/exercises/README.md#3-let-or-constjs) - _incomplete_ 
-    - [/4-let-or-const.js](./01-variables/exercises/README.md#4-let-or-constjs) - _incomplete_ 
-    - [/5-let-or-const.js](./01-variables/exercises/README.md#5-let-or-constjs) - _incomplete_ 
+    - [/1-let.js](./01-variables/exercises/README.md#1-letjs)  
+    - [/2-let.js](./01-variables/exercises/README.md#2-letjs)  
+    - [/3-let-or-const.js](./01-variables/exercises/README.md#3-let-or-constjs)  
+    - [/4-let-or-const.js](./01-variables/exercises/README.md#4-let-or-constjs)  
+    - [/5-let-or-const.js](./01-variables/exercises/README.md#5-let-or-constjs)  
 - [/02-primitive-types](./02-primitive-types/README.md)
   - [/examples](./02-primitive-types/examples/README.md)
     - [/boolean-undefined-null.js](./02-primitive-types/examples/README.md#boolean-undefined-nulljs)  
@@ -24,7 +24,7 @@
     - [/string.js](./02-primitive-types/examples/README.md#stringjs)  
     - [/typeof.js](./02-primitive-types/examples/README.md#typeofjs)  
   - [/exercises](./02-primitive-types/exercises/README.md)
-    - [/fill-in-the-type.js](./02-primitive-types/exercises/README.md#fill-in-the-typejs) - _incomplete_ 
+    - [/fill-in-the-type.js](./02-primitive-types/exercises/README.md#fill-in-the-typejs)  
 - [/03-comparing-and-asserting](./03-comparing-and-asserting/README.md)
   - [/examples](./03-comparing-and-asserting/examples/README.md)
     - [/1-strict-equality.js](./03-comparing-and-asserting/examples/README.md#1-strict-equalityjs)  

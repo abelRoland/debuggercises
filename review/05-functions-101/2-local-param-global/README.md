@@ -2,7 +2,7 @@
 
 ## /exercises/05-functions-101/2-local-param-global 
 
-> 6/16/2020, 5:30:33 PM 
+> 6/17/2020, 11:05:12 AM 
 
 [../README.md](../README.md)
 
@@ -150,15 +150,15 @@ console.log('global2:', global2);
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/1-parameter-local.js:9:31)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -215,15 +215,15 @@ console.assert(jazz3, 'Test 3: jazz');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/2-parameter-global.js:20:31)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -277,15 +277,15 @@ console.assert(funk3, 'Test 3: funk');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/3-parameter-global.js:11:31)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -329,15 +329,15 @@ console.assert(jazz3, 'Test 3: jazz');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/5-local-global.js:12:35)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -402,15 +402,15 @@ console.assert(globalTest6, 'Test 9: global');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/6-local-global.js:12:35)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -475,15 +475,15 @@ console.assert(globalTest6, 'Test 9: global');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/7-parameter-local-global.js:11:32)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -539,15 +539,15 @@ console.assert(globalTest5, 'Test 7: global');
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/05-functions-101/2-local-param-global/8-prameter-local-global.js:11:32)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:116:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
