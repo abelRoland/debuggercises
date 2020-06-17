@@ -2,6 +2,8 @@
 
 ## /exercises 
 
+> 6/17/2020, 9:07:20 PM 
+
 [../README.md](../README.md)
 
 - [/01-variables](./01-variables/README.md)
@@ -88,10 +90,10 @@
     - [/or.js](./07-logical-operators/examples/README.md#orjs)  
     - [/ternary.js](./07-logical-operators/examples/README.md#ternaryjs)  
   - [/exercises](./07-logical-operators/exercises/README.md)
-    - [/and.js](./07-logical-operators/exercises/README.md#andjs) - _fail_ 
-    - [/not.js](./07-logical-operators/exercises/README.md#notjs) - _fail_ 
-    - [/or.js](./07-logical-operators/exercises/README.md#orjs) - _fail_ 
-    - [/ternary.js](./07-logical-operators/exercises/README.md#ternaryjs) - _fail_ 
+    - [/and.js](./07-logical-operators/exercises/README.md#andjs) - _pass_ 
+    - [/not.js](./07-logical-operators/exercises/README.md#notjs) - _pass_ 
+    - [/or.js](./07-logical-operators/exercises/README.md#orjs) - _pass_ 
+    - [/ternary.js](./07-logical-operators/exercises/README.md#ternaryjs) - _pass_ 
 - [/08-block-scope](./08-block-scope/README.md)
   - [/1-missing-values](./08-block-scope/1-missing-values/README.md)
     - [/1.js](./08-block-scope/1-missing-values/README.md#1js) - _incomplete_ 

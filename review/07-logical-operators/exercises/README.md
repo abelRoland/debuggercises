@@ -2,37 +2,33 @@
 
 ## /exercises/07-logical-operators/exercises 
 
-<<<<<<< HEAD
-> 6/17/2020, 8:55:33 PM 
-=======
-> 6/17/2020, 8:51:47 PM 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
+> 6/17/2020, 9:07:20 PM 
 
 [../README.md](../README.md)
 
-- [/and.js](#andjs) - _fail_ 
-- [/not.js](#notjs) - _fail_ 
-- [/or.js](#orjs) - _fail_ 
-- [/ternary.js](#ternaryjs) - _fail_ 
+- [/and.js](#andjs) - _pass_ 
+- [/not.js](#notjs) - _pass_ 
+- [/or.js](#orjs) - _pass_ 
+- [/ternary.js](#ternaryjs) - _pass_ 
 
 ---
 
 ## /and.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/and.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -41,7 +37,12 @@
 // write a function that behaves the same as &&
 //  ... without using &&
 function and(left, right) {
-
+    if (Boolean(left) === true) {
+        return right; 
+      } else {
+        return left;
+      }
+      // return left && right;
 }
 
 const _1_expect = 0;
@@ -88,20 +89,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /not.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/not.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -110,6 +111,14 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 // write a function that behaves the same as !
 //  ... but doesn't use !
 function not(value) {
+      
+    if(Boolean(value) === true) {
+        return false;
+      } else {
+        return true;
+      }
+      
+      //return !value
 
 }
 
@@ -157,20 +166,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /or.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/or.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
 + PASS: Test 8
-- FAIL: Test 9
++ PASS: Test 9
 ```
 
 ```js
@@ -179,7 +188,12 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 // write a function that behaves the same as ||
 //  ... without using ||
 function or(left, right) {
-
+    if (Boolean(left) === true) {
+        return left; 
+      } else {
+        return right;
+      }
+      // return left || right;
 }
 
 const _1_expect = 0;
@@ -226,20 +240,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /ternary.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/ternary.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -248,6 +262,12 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 // write a function that behaves the same as ? :
 //  ... without using ? :
 function ternary(condition, first, second) {
+    if (Boolean(condition) === true) {
+        return first;
+      } else {
+        return second;
+      } 
+      //return (Boolean(condition) === true) ? first : second;
 
 }
 

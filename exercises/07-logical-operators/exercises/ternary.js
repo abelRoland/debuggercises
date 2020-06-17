@@ -3,6 +3,12 @@
 // write a function that behaves the same as ? :
 //  ... without using ? :
 function ternary(condition, first, second) {
+    if (Boolean(condition) === true) {
+        return first;
+      } else {
+        return second;
+      } 
+      //return (Boolean(condition) === true) ? first : second;
 
 }
 

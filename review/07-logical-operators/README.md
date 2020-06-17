@@ -2,11 +2,7 @@
 
 ## /exercises/07-logical-operators 
 
-<<<<<<< HEAD
-> 6/17/2020, 8:55:33 PM 
-=======
-> 6/17/2020, 8:51:47 PM 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
+> 6/17/2020, 9:07:20 PM 
 
 [../README.md](../README.md)
 
@@ -17,8 +13,8 @@
   - [/or.js](./examples/README.md#orjs)  
   - [/ternary.js](./examples/README.md#ternaryjs)  
 - [/exercises](./exercises/README.md)
-  - [/and.js](./exercises/README.md#andjs) - _fail_ 
-  - [/not.js](./exercises/README.md#notjs) - _fail_ 
-  - [/or.js](./exercises/README.md#orjs) - _fail_ 
-  - [/ternary.js](./exercises/README.md#ternaryjs) - _fail_ 
+  - [/and.js](./exercises/README.md#andjs) - _pass_ 
+  - [/not.js](./exercises/README.md#notjs) - _pass_ 
+  - [/or.js](./exercises/README.md#orjs) - _pass_ 
+  - [/ternary.js](./exercises/README.md#ternaryjs) - _pass_ 
 

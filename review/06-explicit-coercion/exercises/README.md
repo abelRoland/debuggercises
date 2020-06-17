@@ -2,19 +2,11 @@
 
 ## /exercises/06-explicit-coercion/exercises 
 
-<<<<<<< HEAD
-> 6/17/2020, 8:55:33 PM 
+> 6/17/2020, 9:07:20 PM 
 
 [../README.md](../README.md)
 
 - [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
-=======
-> 6/17/2020, 8:51:47 PM 
-
-[../README.md](../README.md)
-
-- [/1-write-expected.js](#1-write-expectedjs) - _error_ 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
 - [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
 - [/3-write-function.js](#3-write-functionjs) - _pass_ 
 
@@ -22,11 +14,7 @@
 
 ## /1-write-expected.js 
 
-<<<<<<< HEAD
 > pass 
-=======
-> error 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
 >
 > [review source](../../../exercises/06-explicit-coercion/exercises/1-write-expected.js)
 
@@ -38,22 +26,8 @@
 + PASS: Test 5
 + PASS: Test 6
 + PASS: Test 7
-<<<<<<< HEAD
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: TypeError: x cannot be a boolean
-    at mystery (  ...  /exercises/06-explicit-coercion/exercises/1-write-expected.js:4:39)
-    at Object.<anonymous> (  ...  /exercises/06-explicit-coercion/exercises/1-write-expected.js:42:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:116:1) 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
 ```
 
 ```js
@@ -98,11 +72,7 @@ const _7_actual = mystery(-1);
 console.assert(_7_actual === _7_expect, 'Test 7');
 
 const _8_expect = 1;
-<<<<<<< HEAD
 const _8_actual = mystery('true');
-=======
-const _8_actual = mystery(true);
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
 console.assert(_8_actual === _8_expect, 'Test 8');
 
 const _9_expect = 1;
