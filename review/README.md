@@ -2,12 +2,6 @@
 
 ## /exercises 
 
-<<<<<<< HEAD
-> 6/17/2020, 8:55:33 PM 
-=======
-> 6/17/2020, 8:51:47 PM 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
-
 [../README.md](../README.md)
 
 - [/01-variables](./01-variables/README.md)
@@ -83,11 +77,7 @@
     - [/3-number.js](./06-explicit-coercion/examples/README.md#3-numberjs)  
     - [/4-about-nan.js](./06-explicit-coercion/examples/README.md#4-about-nanjs) - _fail_ 
   - [/exercises](./06-explicit-coercion/exercises/README.md)
-<<<<<<< HEAD
     - [/1-write-expected.js](./06-explicit-coercion/exercises/README.md#1-write-expectedjs) - _pass_ 
-=======
-    - [/1-write-expected.js](./06-explicit-coercion/exercises/README.md#1-write-expectedjs) - _error_ 
->>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
     - [/2-write-arguments.js](./06-explicit-coercion/exercises/README.md#2-write-argumentsjs) - _pass_ 
     - [/3-write-function.js](./06-explicit-coercion/exercises/README.md#3-write-functionjs) - _pass_ 
 - [/07-logical-operators](./07-logical-operators/README.md)
