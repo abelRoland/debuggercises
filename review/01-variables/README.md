@@ -2,7 +2,11 @@
 
 ## /exercises/01-variables 
 
+<<<<<<< HEAD
 > 6/17/2020, 8:55:33 PM 
+=======
+> 6/17/2020, 8:51:47 PM 
+>>>>>>> 021ac88c682369cf7c756249eca8f14c9109ac13
 
 [../README.md](../README.md)
 
