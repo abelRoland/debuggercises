@@ -2,7 +2,7 @@
 
 ## /exercises/03-comparing-and-asserting/examples 
 
-> 6/17/2020, 11:05:12 AM 
+> 6/17/2020, 2:09:54 PM 
 
 [../README.md](../README.md)
 
@@ -54,7 +54,7 @@ const isTrue3 = '4' === '4';
 console.log(typeof isTrue3, isTrue3);
 
 
-// if two values are the same, === evalutes to true:
+// if two values are the same, === evaluates to true:
 console.log('-- false comparisons --');
 
 // if they are not, it evaluates to false

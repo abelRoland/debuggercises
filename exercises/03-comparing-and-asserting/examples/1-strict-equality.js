@@ -17,7 +17,7 @@ const isTrue3 = '4' === '4';
 console.log(typeof isTrue3, isTrue3);
 
 
-// if two values are the same, === evalutes to true:
+// if two values are the same, === evaluates to true:
 console.log('-- false comparisons --');
 
 // if they are not, it evaluates to false

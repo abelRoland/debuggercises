@@ -2,7 +2,7 @@
 
 ## /exercises/03-comparing-and-asserting 
 
-> 6/17/2020, 11:05:12 AM 
+> 6/17/2020, 2:09:54 PM 
 
 [../README.md](../README.md)
 
@@ -14,6 +14,6 @@
   - [/extra-object-is.js](./examples/README.md#extra-object-isjs)  
   - [/extra-strict-inequality.js](./examples/README.md#extra-strict-inequalityjs)  
 - [/exercises](./exercises/README.md)
-  - [/1.js](./exercises/README.md#1js) - _incomplete_ 
-  - [/2.js](./exercises/README.md#2js) - _incomplete_ 
+  - [/1.js](./exercises/README.md#1js) - _pass_ 
+  - [/2.js](./exercises/README.md#2js) - _pass_ 
 
