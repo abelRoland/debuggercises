@@ -1,5 +1,14 @@
 function mystery(a, b) {
-
+    let result = '';
+    if ( Boolean(a) === false && Boolean (b) === false) {
+      result = 'path 1';
+    } else if (typeof a === typeof b) {
+      result = 'path 2';
+    } else {
+      result = 'path 3';
+    }
+    return result;
+  
 }
 
 
