@@ -2,7 +2,7 @@
 
 ## /exercises 
 
-> 6/17/2020, 2:09:54 PM 
+> 6/17/2020, 2:47:57 PM 
 
 [../README.md](../README.md)
 
@@ -43,13 +43,13 @@
     - [/2-reassign-a.js](./04-value-swaps/example-swap-in-steps/README.md#2-reassign-ajs) - _fail_ 
     - [/3-use-stored-y.js](./04-value-swaps/example-swap-in-steps/README.md#3-use-stored-yjs) - _pass_ 
   - [/exercises](./04-value-swaps/exercises/README.md)
-    - [/1-double-swap.js](./04-value-swaps/exercises/README.md#1-double-swapjs) - _incomplete_ 
-    - [/2-triple-swap.js](./04-value-swaps/exercises/README.md#2-triple-swapjs) - _incomplete_ 
-    - [/3-triple-swap.js](./04-value-swaps/exercises/README.md#3-triple-swapjs) - _incomplete_ 
-    - [/4-quadruple-swap.js](./04-value-swaps/exercises/README.md#4-quadruple-swapjs) - _incomplete_ 
-    - [/5-quadruple-swap.js](./04-value-swaps/exercises/README.md#5-quadruple-swapjs) - _incomplete_ 
-    - [/6-let-and-const.js](./04-value-swaps/exercises/README.md#6-let-and-constjs) - _incomplete_ 
-    - [/7-let-and-const.js](./04-value-swaps/exercises/README.md#7-let-and-constjs) - _incomplete_ 
+    - [/1-double-swap.js](./04-value-swaps/exercises/README.md#1-double-swapjs) - _pass_ 
+    - [/2-triple-swap.js](./04-value-swaps/exercises/README.md#2-triple-swapjs) - _pass_ 
+    - [/3-triple-swap.js](./04-value-swaps/exercises/README.md#3-triple-swapjs) - _pass_ 
+    - [/4-quadruple-swap.js](./04-value-swaps/exercises/README.md#4-quadruple-swapjs) - _pass_ 
+    - [/5-quadruple-swap.js](./04-value-swaps/exercises/README.md#5-quadruple-swapjs) - _pass_ 
+    - [/6-let-and-const.js](./04-value-swaps/exercises/README.md#6-let-and-constjs) - _pass_ 
+    - [/7-let-and-const.js](./04-value-swaps/exercises/README.md#7-let-and-constjs) - _pass_ 
 - [/05-functions-101](./05-functions-101/README.md)
   - [/0-examples](./05-functions-101/0-examples/README.md)
     - [/1-declaration-vs-execution.js](./05-functions-101/0-examples/README.md#1-declaration-vs-executionjs)  
