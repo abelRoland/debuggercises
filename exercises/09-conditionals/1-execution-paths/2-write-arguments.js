@@ -1,16 +1,16 @@
 function mystery(a, b) {
   let result = '';
-  if (typeof a === 'number') {
-    if (typeof b === 'number') {
+  if (Boolean(a) === false && typeof a !== 'string') {
+    if (typeof a !== typeof b && typeof b !== 'undefined') {
       result = 'path 1';
     } else {
-      result = 'path 2';
+      result = 'path 4';
     }
   } else {
-    if (typeof a === typeof b) {
+    if (typeof a ===  'string' ) {
       result = 'path 3';
     } else {
-      result = 'path 4';
+      result = 'path 2';
     }
   }
   return result;

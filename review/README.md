@@ -2,7 +2,7 @@
 
 ## /exercises 
 
-> 6/18/2020, 3:13:42 PM 
+> 6/18/2020, 4:31:21 PM 
 
 [../README.md](../README.md)
 
@@ -119,13 +119,13 @@
     - [/4-nested-conditionals.js](./09-conditionals/0-examples/README.md#4-nested-conditionalsjs) - _pass_ 
     - [/5-unreachable-paths.js](./09-conditionals/0-examples/README.md#5-unreachable-pathsjs) - _pass_ 
   - [/1-execution-paths](./09-conditionals/1-execution-paths/README.md)
-    - [/1-write-expected.js](./09-conditionals/1-execution-paths/README.md#1-write-expectedjs) - _incomplete_ 
-    - [/2-write-arguments.js](./09-conditionals/1-execution-paths/README.md#2-write-argumentsjs) - _fail_ 
-    - [/3-write-function.js](./09-conditionals/1-execution-paths/README.md#3-write-functionjs) - _incomplete_ 
+    - [/1-write-expected.js](./09-conditionals/1-execution-paths/README.md#1-write-expectedjs) - _pass_ 
+    - [/2-write-arguments.js](./09-conditionals/1-execution-paths/README.md#2-write-argumentsjs) - _pass_ 
+    - [/3-write-function.js](./09-conditionals/1-execution-paths/README.md#3-write-functionjs) - _pass_ 
   - [/2-conditional-bodies](./09-conditionals/2-conditional-bodies/README.md)
-    - [/1-write-expected.js](./09-conditionals/2-conditional-bodies/README.md#1-write-expectedjs) - _incomplete_ 
-    - [/2-write-arguments.js](./09-conditionals/2-conditional-bodies/README.md#2-write-argumentsjs) - _incomplete_ 
-    - [/3-write-function.js](./09-conditionals/2-conditional-bodies/README.md#3-write-functionjs) - _incomplete_ 
+    - [/1-write-expected.js](./09-conditionals/2-conditional-bodies/README.md#1-write-expectedjs) - _pass_ 
+    - [/2-write-arguments.js](./09-conditionals/2-conditional-bodies/README.md#2-write-argumentsjs) - _pass_ 
+    - [/3-write-function.js](./09-conditionals/2-conditional-bodies/README.md#3-write-functionjs) - _pass_ 
 - [/10-functions-201](./10-functions-201/README.md)
   - [/0-examples](./10-functions-201/0-examples/README.md)
     - [/1-documenting-functions.js](./10-functions-201/0-examples/README.md#1-documenting-functionsjs)  
