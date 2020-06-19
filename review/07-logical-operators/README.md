@@ -1,10 +1,8 @@
-# Debuggercises 
+# undefined 
 
-## /exercises/07-logical-operators 
+> 6/19/2020, 2:30:45 PM 
 
-> 6/19/2020, 12:05:24 PM 
-
-[../README.md](../README.md)
+## [exercises](../README.md)/07-logical-operators 
 
 - [/examples](./examples/README.md)
   - [/0-truthiness.js](./examples/README.md#0-truthinessjs)  
@@ -17,4 +15,3 @@
   - [/not.js](./exercises/README.md#notjs) - _pass_ 
   - [/or.js](./exercises/README.md#orjs) - _pass_ 
   - [/ternary.js](./exercises/README.md#ternaryjs) - _pass_ 
-

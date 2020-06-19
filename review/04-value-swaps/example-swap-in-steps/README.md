@@ -1,16 +1,13 @@
-# Debuggercises 
+# undefined 
 
-## /exercises/04-value-swaps/example-swap-in-steps 
+> 6/19/2020, 2:30:45 PM 
 
-> 6/19/2020, 12:05:24 PM 
-
-[../README.md](../README.md)
+## [exercises](../../README.md)/[04-value-swaps](../README.md)/example-swap-in-steps 
 
 - [/0-setup.js](#0-setupjs) - _fail_ 
 - [/1-store-y.js](#1-store-yjs) - _fail_ 
 - [/2-reassign-a.js](#2-reassign-ajs) - _fail_ 
 - [/3-use-stored-y.js](#3-use-stored-yjs) - _pass_ 
-
 ---
 
 ## /0-setup.js 
@@ -27,6 +24,9 @@
 
 ```js
 'use strict';
+
+// this file shows the initial swap exercise
+//  before you have written any code
 
 // declare & assign variables
 let a = "y";
@@ -67,6 +67,8 @@ console.assert(isTrue3, "Test 3");
 
 ```js
 'use strict';
+
+// this file shows the first line of code to write
 
 // declare & assign variables
 let a = "y";
@@ -109,6 +111,8 @@ console.assert(isTrue3, "Test 3");
 ```js
 'use strict';
 
+// this file shows the second line of code to write
+
 // declare & assign variables
 let a = "y";
 let b = "x";
@@ -150,6 +154,8 @@ console.assert(isTrue3, "Test 3");
 
 ```js
 'use strict';
+
+// this file shows the final line of code, with all tests passing
 
 // declare & assign variables
 let a = "y";

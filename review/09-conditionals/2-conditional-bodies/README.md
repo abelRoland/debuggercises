@@ -1,15 +1,12 @@
-# Debuggercises 
+# undefined 
 
-## /exercises/09-conditionals/2-conditional-bodies 
+> 6/19/2020, 2:30:45 PM 
 
-> 6/19/2020, 12:05:24 PM 
-
-[../README.md](../README.md)
+## [exercises](../../README.md)/[09-conditionals](../README.md)/2-conditional-bodies 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
 - [/3-write-function.js](#3-write-functionjs) - _pass_ 
-
 ---
 
 ## /1-write-expected.js 

@@ -1,15 +1,12 @@
-# Debuggercises 
+# undefined 
 
-## /exercises/01-variables/examples 
+> 6/19/2020, 2:30:45 PM 
 
-> 6/19/2020, 12:05:24 PM 
-
-[../README.md](../README.md)
+## [exercises](../../README.md)/[01-variables](../README.md)/examples 
 
 - [/1-declaration-assignment-reassignment.js](#1-declaration-assignment-reassignmentjs)  
 - [/2-reusing-variables.js](#2-reusing-variablesjs)  
 - [/3-const-vs-let.js](#3-const-vs-letjs) - _error_ 
-
 ---
 
 ## /1-declaration-assignment-reassignment.js 
@@ -75,7 +72,7 @@ LOG: oak bed frame
 
 // you can use values stored in one variable to assign a value to another
 
-let wood = 'oak';
+const wood = 'oak';
 console.log(wood);
 
 let furniture = wood + ' bed';
@@ -107,8 +104,8 @@ UNCAUGHT: TypeError: Assignment to constant variable.
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:116:1)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 

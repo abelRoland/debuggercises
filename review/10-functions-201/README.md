@@ -1,10 +1,8 @@
-# Debuggercises 
+# undefined 
 
-## /exercises/10-functions-201 
+> 6/19/2020, 2:30:45 PM 
 
-> 6/19/2020, 12:05:24 PM 
-
-[../README.md](../README.md)
+## [exercises](../README.md)/10-functions-201 
 
 - [/0-examples](./0-examples/README.md)
   - [/1-documenting-functions.js](./0-examples/README.md#1-documenting-functionsjs)  
@@ -21,4 +19,3 @@
   - [/1.js](./2-fix-the-bugs/README.md#1js) - _pass_ 
   - [/2.js](./2-fix-the-bugs/README.md#2js) - _pass_ 
   - [/3.js](./2-fix-the-bugs/README.md#3js) - _pass_ 
-
