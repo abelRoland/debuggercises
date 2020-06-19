@@ -10,8 +10,9 @@
  */
 function sameTruthiness(a, b) {
   // no need to check a or b, they can be any type
-
-  const result = _;
+  const first = Boolean(a) 
+  const second = Boolean(b) 
+  const result = first === second;
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;

@@ -1,5 +1,4 @@
 'use strict';
-
 // write two different implementations with the same behavior
 //  hint: demorgan
 
@@ -13,8 +12,17 @@ function notAndA(x, y) {
   if (typeof x !== 'boolean') { throw new TypeError(); }
   if (typeof y !== 'boolean') { throw new TypeError(); }
 
-  const result = _;
+  let demorgan;
 
+  if (x && y) {
+    demorgan = false;
+  } else {
+    demorgan = true;
+  }
+
+
+  const result = demorgan;
+  
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
 }
@@ -28,8 +36,16 @@ function notAndA(x, y) {
 function notAndB(x, y) {
   if (typeof x !== 'boolean') { throw new TypeError(); }
   if (typeof y !== 'boolean') { throw new TypeError(); }
+  
+  let demorgan;
 
-  const result = _;
+  if (x === false || y === false) {
+    demorgan = true;
+  } else {
+    demorgan = false;
+  }
+
+  const result = demorgan;
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
