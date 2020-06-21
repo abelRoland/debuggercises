@@ -1,6 +1,10 @@
-# undefined 
+# Debuggercises 
 
+<<<<<<< HEAD
 > 6/19/2020, 2:30:45 PM 
+=======
+> 6/21/2020, 9:05:10 AM 
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 ## [exercises](../../README.md)/[01-variables](../README.md)/exercises 
 

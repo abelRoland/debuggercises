@@ -1,6 +1,10 @@
-# undefined 
+# Debuggercises 
 
+<<<<<<< HEAD
 > 6/19/2020, 2:30:45 PM 
+=======
+> 6/21/2020, 9:05:10 AM 
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 ## [exercises](../../README.md)/[06-explicit-coercion](../README.md)/exercises 
 
@@ -30,13 +34,13 @@
 ```js
 'use strict';
 
-function mystery(x) {
+const mystery = (x) => {
   if (typeof x === 'boolean') { throw new TypeError('x cannot be a boolean'); }
 
   const booleaned = Boolean(x);
   const numbered = Number(booleaned);
   return numbered;
-}
+};
 
 // write the expected return value
 
@@ -104,13 +108,13 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 ```js
 'use strict';
 
-function mystery(x) {
+const mystery = (x) => {
   if (typeof x === 'string') { throw new TypeError('x cannot be a string'); }
 
   const stringed = String(x);
   const numbered = Number(stringed);
   return numbered;
-}
+};
 
 // find an argument to get the expected return value
 
@@ -183,11 +187,17 @@ console.assert(Object.is(_9_actual, _9_expect), 'Test 9');
    Number
    ===
 */
+<<<<<<< HEAD
 function mystery(x, y) {
   if (typeof x === 'number' && y === 'number') { throw new TypeError('x cannot be a string'); }
   const number1 = Number(x)=== Number(y);
   return number1;
 }
+=======
+const mystery = (x, y) => {
+
+};
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 // all of the test cases are correct
 

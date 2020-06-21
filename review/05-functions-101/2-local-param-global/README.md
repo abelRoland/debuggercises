@@ -1,6 +1,10 @@
-# undefined 
+# Debuggercises 
 
+<<<<<<< HEAD
 > 6/19/2020, 2:30:45 PM 
+=======
+> 6/21/2020, 9:05:10 AM 
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/2-local-param-global 
 
@@ -68,9 +72,9 @@ console.log('\n-- Parameters ---');
 //  all variables used inside this function's body are declared as parameters
 //  the variables get their value from arguments when the function is called
 
-function usesParameters(param1, param2) {
+const usesParameters = (param1, param2) => {
   return `${param1}, ${param2}`;
-}
+};
 
 const fromParams1 = usesParameters('hi', 'bye');
 console.log('fromParams1:', fromParams1);
@@ -83,11 +87,11 @@ console.log('\n-- Local Variables ---');
 //  all variables used inside this function's body are declared locally
 //  the variables get their value from a local assignmnet
 
-function usesLocals() {
+const usesLocals = () => {
   const local1 = 'town';
   const local2 = 'ship';
   return `${local1}, ${local2}`;
-}
+};
 
 const fromLocals1 = usesLocals();
 console.log('fromLocals1:', fromLocals1);
@@ -100,11 +104,11 @@ console.log('\n-- Global Variables ---');
 //  all variables used inside this function's body are declared globally
 //  the variables get their value from local and global assignments (confusing!)
 
-function usesGlobals() {
+const usesGlobals = () => {
   global1 = `${global}-`;
   global2 = '-'
   return `${global1}, ${global2}`;
-}
+};
 
 let global1 = 'a';
 let global2 = 'b';
@@ -156,10 +160,10 @@ console.log('global2:', global2);
 ```js
 'use strict';
 
-function funk(parameter) {
+const funk = (parameter) => {
   const local = `funky`;
   return `${local} ${parameter}`;
-}
+};
 
 const funkReturn1 = funk('hello');
 const funk1 = funkReturn1 === 'funky hello';
@@ -175,10 +179,10 @@ console.assert(funk3, 'Test 3: funk');
 
 
 
-function jazz(parameter) {
+const jazz = (parameter) => {
   const local = `jazzy`;
   return `${local} ${parameter}`;
-}
+};
 
 const jazzReturn1 = jazz('hello');
 const jazz1 = jazzReturn1 === 'jazzy hello';
@@ -224,10 +228,10 @@ console.assert(jazz3, 'Test 3: jazz');
 
 let global = '';
 
-function funk(parameter) {
+const funk = (parameter) => {
   global = `${global}funky`;
   return `${global} ${parameter}`;
-}
+};
 
 const funkReturn1 = funk('hello');
 const funk1 = funkReturn1 === 'funky hello';
@@ -269,10 +273,10 @@ console.assert(funk3, 'Test 3: funk');
 
 let global = '<3';
 
-function jazz(parameter) {
+const jazz = (parameter) => {
   global = `${global} jazzy`;
   return `${global} ${parameter}`;
-}
+};
 
 const jazzReturn1 = jazz('hello');
 const jazz1 = jazzReturn1 === '<3 jazzy hello';
@@ -319,11 +323,11 @@ console.assert(jazz3, 'Test 3: jazz');
 
 let global = 'awesome';
 
-function funk() {
+const funk = () => {
   const local = 'funky'
   global = `#${global}`;
   return `${local} ${global}`;
-}
+};
 
 const funkReturn1 = funk();
 const funkTest1 = funkReturn1 === 'funky #awesome';
@@ -390,11 +394,11 @@ console.assert(globalTest6, 'Test 9: global');
 
 let global = 'turtle';
 
-function jazz() {
+const jazz = () => {
   const local = 'jazzy'
   global = `${global}!`;
   return `${global} ${local}`;
-}
+};
 
 const jazzReturn1 = jazz();
 const jazzTest1 = jazzReturn1 === 'turtle! jazzy';
@@ -459,11 +463,11 @@ console.assert(globalTest6, 'Test 9: global');
 
 let global = '.';
 
-function funk(parameter) {
+const funk = (parameter) => {
   const local = `funky ${global}`;
   global = `${global} ${global}`;
   return `${parameter} ${local} ${global}`;
-}
+};
 
 const globalTest1 = global === '.';
 console.assert(globalTest1, 'Test 1: global');
@@ -519,11 +523,11 @@ console.assert(globalTest5, 'Test 7: global');
 
 let global = '.';
 
-function jazz(parameter) {
+const jazz = (parameter) => {
   const local = `jazzy ${global}`;
   global = `#${global}`;
   return `${parameter} ${local} ${global}`;
-}
+};
 
 const globalTest1 = global === '.';
 console.assert(globalTest1, 'Test 1: global');
@@ -582,29 +586,33 @@ console.assert(globalTest5, 'Test 7: global');
 
 // which of these are pure functions?
 
-function a() {
+const a = () => {
   return x + y;
-}
+};
 
-function b(y) {
+const b = (y) => {
   result = x + y;
   return result;
-}
+};
 
-function c(y, x) {
+const c = (y, x) => {
   const m = y - x
   return x + m;
-}
+};
 
-function d(x, y) {
+const d = (x, y) => {
   const a = 'hi';
   return x + y + z;
-}
+};
 
-function e(x, y) {
+const e = (x, y) => {
   p += z;
   return z + y;
-}
+};
+
+const f = (p) => {
+  return p * 2;
+};
 
 ```
 

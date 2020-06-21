@@ -1,8 +1,8 @@
 'use strict';
 
-function scramble(param1, param2, param3) {
+const scramble = (param1, param2, param3) => {
   return `${param3}${param1}${param2}`;
-}
+};
 
 const arg1 = "a";
 const arg2 = "c";

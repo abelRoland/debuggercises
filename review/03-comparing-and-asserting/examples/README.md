@@ -1,6 +1,10 @@
-# undefined 
+# Debuggercises 
 
+<<<<<<< HEAD
 > 6/19/2020, 2:30:45 PM 
+=======
+> 6/21/2020, 9:05:10 AM 
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 ## [exercises](../../README.md)/[03-comparing-and-asserting](../README.md)/examples 
 
@@ -8,8 +12,8 @@
 - [/2-extra-assignment-vs-comparison.js](#2-extra-assignment-vs-comparisonjs) - _error (syntax)_ 
 - [/3-console-assert.js](#3-console-assertjs) - _fail_ 
 - [/4-testing-with-assert.js](#4-testing-with-assertjs) - _pass_ 
-- [/extra-object-is.js](#extra-object-isjs)  
-- [/extra-strict-inequality.js](#extra-strict-inequalityjs)  
+- [/object-is.js](#object-isjs)  
+- [/strict-inequality.js](#strict-inequalityjs)  
 ---
 
 ## /1-strict-equality.js 
@@ -242,11 +246,11 @@ console.assert(isTrue5, 'Assertion 5');
 
 ---
 
-## /extra-object-is.js 
+## /object-is.js 
 
 >  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/extra-object-is.js)
+> [review source](../../../exercises/03-comparing-and-asserting/examples/object-is.js)
 
 ```txt
 LOG: strictEqualityZeros:  boolean  
@@ -287,11 +291,11 @@ console.log('objectIsNaN:', typeof objectIsNaN, '\n', objectIsNaN);
 
 ---
 
-## /extra-strict-inequality.js 
+## /strict-inequality.js 
 
 >  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/extra-strict-inequality.js)
+> [review source](../../../exercises/03-comparing-and-asserting/examples/strict-inequality.js)
 
 ```txt
 LOG: -- false comparisons --

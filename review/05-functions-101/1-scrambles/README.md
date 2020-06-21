@@ -1,6 +1,10 @@
-# undefined 
+# Debuggercises 
 
+<<<<<<< HEAD
 > 6/19/2020, 2:30:45 PM 
+=======
+> 6/21/2020, 9:05:10 AM 
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/1-scrambles 
 
@@ -27,9 +31,9 @@
 ```js
 'use strict';
 
-function scramble(param1, param2, param3) {
+const scramble = (param1, param2, param3) => {
   return `${param3}${param1}${param2}`;
-}
+};
 
 const arg1 = "a";
 const arg2 = "c";
@@ -98,9 +102,9 @@ console.assert(isTrue6, 'Assertion 6');
 ```js
 'use strict';
 
-function scramble(param1, param2, param3) {
+const scramble = (param1, param2, param3) => {
   return `${param1}${param3}${param2}`;
-}
+};
 
 const _1_expect = 'cab';
 const _1_arg_1 = 'c';
@@ -172,6 +176,7 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 ```js
 'use strict';
 
+<<<<<<< HEAD
 function mystery(a, b) {
     let result = '';
     if ( typeof a === b ) {
@@ -184,6 +189,11 @@ function mystery(a, b) {
     return result;
   
 }
+=======
+const scramble = () => {
+
+};
+>>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 'path 1';
 const _1_actual = mystery('string', 'string');
