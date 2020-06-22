@@ -1,10 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD:review/09-conditionals/0-examples/README.md
-> 6/19/2020, 2:30:45 PM 
-=======
-> 6/21/2020, 9:05:10 AM 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/10-conditional-statements/0-examples/README.md
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/0-examples 
 

@@ -1,7 +1,6 @@
 'use strict';
 
 // write a function that behaves the same as !
-<<<<<<< HEAD
 //  ... but doesn't use !
 function not(value) {
       
@@ -14,12 +13,6 @@ function not(value) {
       //return !value
 
 }
-=======
-//  ... but doesn't use !, only using ? :
-const not = (value) => {
-  return _ ? _ : _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = true;
 const _1_actual = not(0);

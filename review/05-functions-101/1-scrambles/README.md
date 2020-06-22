@@ -1,10 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD
-> 6/19/2020, 2:30:45 PM 
-=======
-> 6/21/2020, 9:05:10 AM 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/1-scrambles 
 
@@ -176,7 +172,6 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 ```js
 'use strict';
 
-<<<<<<< HEAD
 function mystery(a, b) {
     let result = '';
     if ( typeof a === b ) {
@@ -189,11 +184,6 @@ function mystery(a, b) {
     return result;
   
 }
-=======
-const scramble = () => {
-
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 'path 1';
 const _1_actual = mystery('string', 'string');

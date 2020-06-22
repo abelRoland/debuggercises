@@ -3,10 +3,7 @@
 //  hint: demorgan
 
 const notAndA = (x, y) => {
-  return _;
-};
 
-<<<<<<< HEAD:exercises/10-functions-201/1-fill-in-the-blanks/6-twins.js
   let demorgan;
 
   if (x && y) {
@@ -14,7 +11,6 @@ const notAndA = (x, y) => {
   } else {
     demorgan = true;
   }
-
 
   const result = demorgan;
   
@@ -45,11 +41,6 @@ function notAndB(x, y) {
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
 }
-=======
-const notAndB = (x, y) => {
-  return _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:exercises/08-functions-201/2-exercise.js
 
 
 const _1_arg1 = false;

@@ -1,7 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD
-> 6/19/2020, 2:30:45 PM 
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[07-logical-operators](../README.md)/exercises 
 
@@ -9,29 +8,15 @@
 - [/not.js](#notjs) - _pass_ 
 - [/or.js](#orjs) - _pass_ 
 - [/ternary.js](#ternaryjs) - _pass_ 
-=======
-> 6/21/2020, 9:05:10 AM 
-
-## [exercises](../../README.md)/[07-logical-operators](../README.md)/exercises 
-
-- [/and.js](#andjs) - _incomplete_ 
-- [/not.js](#notjs) - _incomplete_ 
-- [/or.js](#orjs) - _incomplete_ 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 ---
 
 ## /and.js 
 
-<<<<<<< HEAD
 > pass 
-=======
-> incomplete 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 >
 > [review source](../../../exercises/07-logical-operators/exercises/and.js)
 
 ```txt
-<<<<<<< HEAD
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -41,26 +26,12 @@
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at and (  ...  /exercises/07-logical-operators/exercises/and.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/and.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 ```
 
 ```js
 'use strict';
 
 // write a function that behaves the same as &&
-<<<<<<< HEAD
 //  ... without using &&
 function and(left, right) {
     if (Boolean(left) === true) {
@@ -70,12 +41,6 @@ function and(left, right) {
       }
       // return left && right;
 }
-=======
-//  ... without using &&, only using ? :
-const and = (left, right) => {
-  return _ ? _ : _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 0;
 const _1_actual = and(0, 0);
@@ -121,16 +86,11 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /not.js 
 
-<<<<<<< HEAD
 > pass 
-=======
-> incomplete 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 >
 > [review source](../../../exercises/07-logical-operators/exercises/not.js)
 
 ```txt
-<<<<<<< HEAD
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -140,26 +100,12 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at not (  ...  /exercises/07-logical-operators/exercises/not.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/not.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 ```
 
 ```js
 'use strict';
 
 // write a function that behaves the same as !
-<<<<<<< HEAD
 //  ... but doesn't use !
 function not(value) {
       
@@ -172,12 +118,6 @@ function not(value) {
       //return !value
 
 }
-=======
-//  ... but doesn't use !, only using ? :
-const not = (value) => {
-  return _ ? _ : _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = true;
 const _1_actual = not(0);
@@ -223,16 +163,11 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /or.js 
 
-<<<<<<< HEAD
 > pass 
-=======
-> incomplete 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 >
 > [review source](../../../exercises/07-logical-operators/exercises/or.js)
 
 ```txt
-<<<<<<< HEAD
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -242,26 +177,12 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at or (  ...  /exercises/07-logical-operators/exercises/or.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/or.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 ```
 
 ```js
 'use strict';
 
 // write a function that behaves the same as ||
-<<<<<<< HEAD
 //  ... without using ||
 function or(left, right) {
     if (Boolean(left) === true) {
@@ -271,12 +192,6 @@ function or(left, right) {
       }
       // return left || right;
 }
-=======
-//  ... without using ||, only using ? :
-const or = (left, right) => {
-  return _ ? _ : _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 0;
 const _1_actual = or(0, 0);
@@ -318,7 +233,6 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 [TOP](#debuggercises)
 
-<<<<<<< HEAD
 ---
 
 ## /ternary.js 
@@ -394,5 +308,3 @@ console.assert(isTrue9, 'Test 9');
 
 [TOP](#debuggercises)
 
-=======
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6

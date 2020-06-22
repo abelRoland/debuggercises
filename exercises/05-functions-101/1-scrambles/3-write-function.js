@@ -1,6 +1,5 @@
 'use strict';
 
-<<<<<<< HEAD
 function mystery(a, b) {
     let result = '';
     if ( typeof a === b ) {
@@ -13,11 +12,6 @@ function mystery(a, b) {
     return result;
   
 }
-=======
-const scramble = () => {
-
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 'path 1';
 const _1_actual = mystery('string', 'string');

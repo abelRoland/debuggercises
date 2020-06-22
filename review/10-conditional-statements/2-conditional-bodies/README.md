@@ -1,10 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD:review/09-conditionals/2-conditional-bodies/README.md
-> 6/19/2020, 2:30:45 PM 
-=======
-> 6/21/2020, 9:05:10 AM 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/10-conditional-statements/2-conditional-bodies/README.md
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/2-conditional-bodies 
 
@@ -20,7 +16,6 @@
 > [review source](../../../exercises/10-conditional-statements/2-conditional-bodies/1-write-expected.js)
 
 ```txt
-<<<<<<< HEAD:review/09-conditionals/2-conditional-bodies/README.md
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -30,19 +25,6 @@
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/2-conditional-bodies/1-write-expected.js:14:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/10-conditional-statements/2-conditional-bodies/README.md
 ```
 
 ```js
@@ -108,7 +90,6 @@ console.assert(Object.is(_9_actual, _9_expect), 'Test 9');
 > [review source](../../../exercises/10-conditional-statements/2-conditional-bodies/2-write-arguments.js)
 
 ```txt
-<<<<<<< HEAD:review/09-conditionals/2-conditional-bodies/README.md
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -118,19 +99,6 @@ console.assert(Object.is(_9_actual, _9_expect), 'Test 9');
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/2-conditional-bodies/2-write-arguments.js:15:27)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/10-conditional-statements/2-conditional-bodies/README.md
 ```
 
 ```js
@@ -197,7 +165,6 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 > [review source](../../../exercises/10-conditional-statements/2-conditional-bodies/3-write-function.js)
 
 ```txt
-<<<<<<< HEAD:review/09-conditionals/2-conditional-bodies/README.md
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
@@ -207,19 +174,6 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 + PASS: Test 7
 + PASS: Test 8
 + PASS: Test 9
-=======
-UNCAUGHT: ReferenceError: _ is not defined
-    at mystery (  ...  /exercises/10-conditional-statements/2-conditional-bodies/3-write-function.js:9:5)
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/2-conditional-bodies/3-write-function.js:20:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/10-conditional-statements/2-conditional-bodies/README.md
 ```
 
 ```js

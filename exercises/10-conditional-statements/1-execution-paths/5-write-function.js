@@ -1,4 +1,3 @@
-<<<<<<< HEAD:exercises/09-conditionals/1-execution-paths/5-write-function.js
 function mystery(a, b) {
     let result = '';
     if ( typeof a === typeof b ) {
@@ -10,11 +9,6 @@ function mystery(a, b) {
     }
     return result;
 }
-=======
-const mystery = (a, b) => {
-
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:exercises/10-conditional-statements/1-execution-paths/5-write-function.js
 
 
 const _1_expect = 'path 1';

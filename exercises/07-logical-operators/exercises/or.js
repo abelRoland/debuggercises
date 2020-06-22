@@ -1,7 +1,6 @@
 'use strict';
 
 // write a function that behaves the same as ||
-<<<<<<< HEAD
 //  ... without using ||
 function or(left, right) {
     if (Boolean(left) === true) {
@@ -11,12 +10,6 @@ function or(left, right) {
       }
       // return left || right;
 }
-=======
-//  ... without using ||, only using ? :
-const or = (left, right) => {
-  return _ ? _ : _;
-};
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6
 
 const _1_expect = 0;
 const _1_actual = or(0, 0);

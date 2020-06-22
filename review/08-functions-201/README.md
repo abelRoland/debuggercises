@@ -1,12 +1,12 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../README.md)/08-functions-201 
 
 - [/0-example.js](#0-examplejs) - _pass_ 
-- [/1-exercise.js](#1-exercisejs) - _incomplete_ 
-- [/2-exercise.js](#2-exercisejs) - _incomplete_ 
+- [/1-exercise.js](#1-exercisejs) - _error_ 
+- [/2-exercise.js](#2-exercisejs) - _pass_ 
 ---
 
 ## /0-example.js 
@@ -92,22 +92,22 @@ console.assert(_3_actualLoop === _3_expect, 'Test 3 Loop');
 
 ## /1-exercise.js 
 
-> incomplete 
+> error 
 >
 > [review source](../../exercises/08-functions-201/1-exercise.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at notAndA (  ...  /exercises/08-functions-201/1-exercise.js:7:3)
-    at Object.<anonymous> (  ...  /exercises/08-functions-201/1-exercise.js:19:20)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+UNCAUGHT: ReferenceError: x is not defined
+    at Object.<anonymous> (  ...  /exercises/08-functions-201/1-exercise.js:12:3)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -120,10 +120,43 @@ const notAndA = (x, y) => {
   return _;
 };
 
+  let demorgan;
 
-const notAndB = (x, y) => {
-  return _;
-};
+  if (x || y) {
+    demorgan = false;
+  } else {
+    demorgan = true;
+  }
+
+
+  const result = demorgan;
+
+  if (typeof result !== 'boolean') { throw new TypeError(); }
+  return result;
+
+/**
+ * returns true if neither argument is true, false if either are true
+ * @param {boolean} x
+ * @param {boolean} y
+ * @returns {boolean}
+ */
+function notAndB(x, y) {
+  if (typeof x !== 'boolean') { throw new TypeError(); }
+  if (typeof y !== 'boolean') { throw new TypeError(); }
+
+  let demorgan;
+
+  if (x === false && y === false) {
+    demorgan = true;
+  } else {
+    demorgan = false;
+  }
+
+  const result = demorgan;
+  
+  if (typeof result !== 'boolean') { throw new TypeError(); }
+  return result;
+}
 
 
 const _1_arg1 = false;
@@ -166,37 +199,65 @@ console.assert(_4_actualB === _4_expect, 'Test 4 B');
 
 ## /2-exercise.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../exercises/08-functions-201/2-exercise.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at notAndA (  ...  /exercises/08-functions-201/2-exercise.js:7:3)
-    at Object.<anonymous> (  ...  /exercises/08-functions-201/2-exercise.js:18:20)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test 1 A
++ PASS: Test 1 B
++ PASS: Test 2 A
++ PASS: Test 2 B
++ PASS: Test 3 A
++ PASS: Test 3 B
++ PASS: Test 4 A
++ PASS: Test 4 B
 ```
 
 ```js
 'use strict';
-
 // write two different implementations with the same behavior
 //  hint: demorgan
 
 const notAndA = (x, y) => {
-  return _;
-};
 
-const notAndB = (x, y) => {
-  return _;
-};
+  let demorgan;
+
+  if (x && y) {
+    demorgan = false;
+  } else {
+    demorgan = true;
+  }
+
+  const result = demorgan;
+  
+  if (typeof result !== 'boolean') { throw new TypeError(); }
+  return result;
+}
+
+/**
+ * returns true if either argument is false, false if both arguments are true
+ * @param {boolean} x
+ * @param {boolean} y
+ * @returns {boolean}
+ */
+function notAndB(x, y) {
+  if (typeof x !== 'boolean') { throw new TypeError(); }
+  if (typeof y !== 'boolean') { throw new TypeError(); }
+  
+  let demorgan;
+
+  if (x === false || y === false) {
+    demorgan = true;
+  } else {
+    demorgan = false;
+  }
+
+  const result = demorgan;
+
+  if (typeof result !== 'boolean') { throw new TypeError(); }
+  return result;
+}
 
 
 const _1_arg1 = false;
@@ -230,7 +291,6 @@ const _4_actualA = notAndA(_4_arg1, _4_arg2);
 const _4_actualB = notAndB(_4_arg1, _4_arg2);
 console.assert(_4_actualA === _4_expect, 'Test 4 A');
 console.assert(_4_actualB === _4_expect, 'Test 4 B');
-
 ```
 
 [TOP](#debuggercises)

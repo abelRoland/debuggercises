@@ -1,10 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD:review/11-increment-and-decrement/exercises/README.md
-> 6/19/2020, 2:30:45 PM 
-=======
-> 6/21/2020, 9:05:10 AM 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/14-increment-and-decrement/exercises/README.md
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[14-increment-and-decrement](../README.md)/exercises 
 
@@ -21,23 +17,13 @@
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/11-increment-and-decrement/exercises/README.md
-    at Object.<anonymous> (  ...  /exercises/11-increment-and-decrement/exercises/1.js:6:22)
+    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/1.js:6:22)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/1.js:6:22)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/14-increment-and-decrement/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30) 
@@ -80,23 +66,13 @@ console.assert(z === _, 'Test 4 z');
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/11-increment-and-decrement/exercises/README.md
-    at Object.<anonymous> (  ...  /exercises/11-increment-and-decrement/exercises/2.js:6:22)
+    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/2.js:6:22)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/2.js:6:22)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/14-increment-and-decrement/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30) 
@@ -141,23 +117,13 @@ console.assert(z === _, 'Test 4 z');
 + PASS: Test 1 x
 + PASS: Test 1 y
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/11-increment-and-decrement/exercises/README.md
-    at Object.<anonymous> (  ...  /exercises/11-increment-and-decrement/exercises/3.js:9:1)
+    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/3.js:9:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at Object.<anonymous> (  ...  /exercises/14-increment-and-decrement/exercises/3.js:9:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/14-increment-and-decrement/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30) 

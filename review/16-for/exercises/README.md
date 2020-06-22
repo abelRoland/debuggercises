@@ -1,10 +1,6 @@
 # Debuggercises 
 
-<<<<<<< HEAD:review/14-for/exercises/README.md
-> 6/19/2020, 2:30:45 PM 
-=======
-> 6/21/2020, 9:05:10 AM 
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/16-for/exercises/README.md
+> 6/22/2020, 3:12:07 PM 
 
 ## [exercises](../../README.md)/[16-for](../README.md)/exercises 
 
@@ -22,23 +18,13 @@
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/14-for/exercises/README.md
-    at Object.<anonymous> (  ...  /exercises/14-for/exercises/1-write-tests.js:26:19)
+    at Object.<anonymous> (  ...  /exercises/16-for/exercises/1-write-tests.js:26:19)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at Object.<anonymous> (  ...  /exercises/16-for/exercises/1-write-tests.js:26:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/16-for/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1)
     at Module._compile (internal/modules/cjs/loader.js:1176:30) 
@@ -119,27 +105,15 @@ console.assert(_9_actual === _9_expect, 'Test  9');
 
 ```txt
 - FAIL: Test  1
-<<<<<<< HEAD:review/14-for/exercises/README.md
-UNCAUGHT: TypeError
-    at repeatLengthTimes (  ...  /exercises/14-for/exercises/5-fix-the-bugs.js:16:43)
-    at Object.<anonymous> (  ...  /exercises/14-for/exercises/5-fix-the-bugs.js:26:19)
+UNCAUGHT: TypeError: result
+    at repeatLengthTimes (  ...  /exercises/16-for/exercises/2-fix-the-bugs.js:16:43)
+    at Object.<anonymous> (  ...  /exercises/16-for/exercises/2-fix-the-bugs.js:26:19)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-UNCAUGHT: TypeError: result
-    at repeatLengthTimes (  ...  /exercises/16-for/exercises/2-fix-the-bugs.js:16:43)
-    at Object.<anonymous> (  ...  /exercises/16-for/exercises/2-fix-the-bugs.js:26:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/16-for/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
@@ -204,25 +178,14 @@ console.assert(_6_actual === _6_expect, 'Test  6');
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/14-for/exercises/README.md
-    at repeater (  ...  /exercises/14-for/exercises/6-pass-tests.js:14:19)
-    at Object.<anonymous> (  ...  /exercises/14-for/exercises/6-pass-tests.js:24:19)
+    at repeater (  ...  /exercises/16-for/exercises/3-pass-tests.js:14:19)
+    at Object.<anonymous> (  ...  /exercises/16-for/exercises/3-pass-tests.js:24:19)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at repeater (  ...  /exercises/16-for/exercises/3-pass-tests.js:14:19)
-    at Object.<anonymous> (  ...  /exercises/16-for/exercises/3-pass-tests.js:24:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/16-for/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
@@ -289,25 +252,14 @@ console.assert(_6_actual === _6_expect, 'Test  6');
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-<<<<<<< HEAD:review/14-for/exercises/README.md
-    at alternator (  ...  /exercises/14-for/exercises/7-pass-tests.js:15:19)
-    at Object.<anonymous> (  ...  /exercises/14-for/exercises/7-pass-tests.js:25:19)
+    at alternator (  ...  /exercises/16-for/exercises/4-pass-tests.js:15:19)
+    at Object.<anonymous> (  ...  /exercises/16-for/exercises/4-pass-tests.js:25:19)
     at Module._compile (internal/modules/cjs/loader.js:1176:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
     at Module.load (internal/modules/cjs/loader.js:1040:32)
     at Function.Module._load (internal/modules/cjs/loader.js:929:14)
     at Module.require (internal/modules/cjs/loader.js:1080:19)
     at require (internal/modules/cjs/helpers.js:72:18)
-=======
-    at alternator (  ...  /exercises/16-for/exercises/4-pass-tests.js:15:19)
-    at Object.<anonymous> (  ...  /exercises/16-for/exercises/4-pass-tests.js:25:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
->>>>>>> d7a0df91cdbeaabba9264cb3ac7fe6f23377b6f6:review/16-for/exercises/README.md
     at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
     at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
