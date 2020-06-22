@@ -1,10 +1,10 @@
 # Debuggercises 
 
-> 6/22/2020, 10:38:32 PM 
+> 6/22/2020, 10:48:21 PM 
 
 ## [exercises](../../README.md)/[15-while](../README.md)/exercises 
 
-- [/1-write-tests.js](#1-write-testsjs) - _fail_ 
+- [/1-write-tests.js](#1-write-testsjs) - _pass_ 
 - [/2-fix-the-bugs.js](#2-fix-the-bugsjs) - _pass_ 
 - [/3-pass-tests.js](#3-pass-testsjs) - _pass_ 
 - [/4-pass-tests.js](#4-pass-testsjs) - _pass_ 
@@ -12,14 +12,14 @@
 
 ## /1-write-tests.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/15-while/exercises/1-write-tests.js)
 
 ```txt
 + PASS: Test  1
 + PASS: Test  2
-- FAIL: Test  3
++ PASS: Test  3
 + PASS: Test  4
 + PASS: Test  5
 + PASS: Test  6
@@ -61,7 +61,7 @@ const _2_actual = mystery(-3);
 const _2_expect = -3;
 console.assert(_2_actual === _2_expect, 'Test  2');
 
-const _3_actual = mystery(2);
+const _3_actual = mystery(-2);
 const _3_expect = -2;
 console.assert(_3_actual === _3_expect, 'Test  3');
 

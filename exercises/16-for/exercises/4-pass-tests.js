@@ -12,8 +12,14 @@ const alternator = (range, str1, str2) => {
   if (typeof str1 !== 'string') { throw new TypeError('str1'); }
   if (typeof str2 !== 'string') { throw new TypeError('str2'); }
 
-  for (_; _; _) {
+  let result ='';
 
+  for (let i = 0; i < range; i++) {
+    if (i % 2 == 0) {
+      result += `${str1}`;
+    } else {
+      result += `${str2}`;
+    }
   }
 
   if (typeof result !== 'string') { throw new TypeError('result'); }

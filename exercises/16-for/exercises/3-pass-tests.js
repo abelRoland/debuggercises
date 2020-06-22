@@ -11,8 +11,9 @@ const repeater = (text, repeats) => {
   if (typeof text !== 'string') { throw new TypeError('text'); }
   if (typeof repeats !== 'number') { throw new TypeError('repeats'); }
 
-  for (_; _; _) {
-
+  let result = '';
+  for (let i = 0; i < repeats; i++) {
+    result += `${i}${text} `;
   }
 
   if (typeof result !== 'string') { throw new TypeError('result'); }
