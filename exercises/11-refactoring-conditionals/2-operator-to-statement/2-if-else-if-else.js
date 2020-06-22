@@ -2,11 +2,18 @@
 
 // refactor this function ot use if/else statements
 const conditional = (a, b) => {
-  const result = !a && !b
-    ? a
-    : a && b
-      ? b
-      : typeof a;
+//  const result = !a && !b ? a : a && b ? b : typeof a;
+
+  let result;
+  if (Boolean(a) === false && Boolean(b) === false ) {
+    result = a;
+  } else {
+    if (Boolean(a) === true && Boolean(b) === true) {
+      result = b;
+    } else {
+      result = typeof a;
+    }
+  }
   return result;
 };
 

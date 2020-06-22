@@ -1,12 +1,12 @@
 # Debuggercises 
 
-> 6/22/2020, 3:26:51 PM 
+> 6/22/2020, 9:55:05 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/1-execution-paths 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
-- [/3-write-arguments.js](#3-write-argumentsjs) - _fail_ 
+- [/3-write-arguments.js](#3-write-argumentsjs) - _pass_ 
 - [/4-write-function.js](#4-write-functionjs) - _pass_ 
 - [/5-write-function.js](#5-write-functionjs) - _pass_ 
 ---
@@ -163,41 +163,41 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /3-write-arguments.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/3-write-arguments.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
 + PASS: Test 5
 + PASS: Test 6
-- FAIL: Test 7
++ PASS: Test 7
 + PASS: Test 8
 ```
 
 ```js
 const mystery = (a, b) => {
   let result = '';
-  if (typeof a === 'number') {
-    if (typeof b === 'number') {
-      result = 'path 1';
-    } else {
-      result = 'path 2';
-    }
+  if (typeof a === 'string' && typeof b === 'string') {
+    result = 'path 3';
+  } else if (Boolean(a) === true && typeof a !== 'string') {
+    result = 'path 2';
+ 
   } else {
-    if (typeof a === typeof b) {
-      result = 'path 3';
-    } else {
+      
+    if (typeof a === typeof b || typeof b === 'undefined') {
       result = 'path 4';
+    } else {
+    result = 'path 1';
     }
   }
-  return result;
+return result;
 };
 
-// path 1
+// path 1 (F, F, N, O) / (F, T, B, S) / 
 const _1_expect = 'path 1';
 const _1_actual = mystery(0, null);
 console.assert(_1_actual === _1_expect, 'Test 1');
@@ -206,7 +206,7 @@ const _2_expect = 'path 1';
 const _2_actual = mystery(false, 'hello');
 console.assert(_2_actual === _2_expect, 'Test 2');
 
-// path 2
+// path 2 (T, F, B, U) / (T, T, N, N)
 const _3_expect = 'path 2';
 const _3_actual = mystery(true, undefined);
 console.assert(_3_actual === _3_expect, 'Test 3');
@@ -215,7 +215,7 @@ const _4_expect = 'path 2';
 const _4_actual = mystery(1, -1);
 console.assert(_4_actual === _4_expect, 'Test 4');
 
-// path 3
+// path 3 (F, F, S, S) / (T, T, S, S)
 const _5_expect = 'path 3';
 const _5_actual = mystery('', '');
 console.assert(_5_actual === _5_expect, 'Test 5');
@@ -224,7 +224,7 @@ const _6_expect = 'path 3';
 const _6_actual = mystery('_6_expect', '_6_actual');
 console.assert(_6_actual === _6_expect, 'Test 6');
 
-// path 4
+// path 4 (F, T, N, N) / (F, F, O, U)
 const _7_expect = 'path 4';
 const _7_actual = mystery(0, 12);
 console.assert(_7_actual === _7_expect, 'Test 7');
