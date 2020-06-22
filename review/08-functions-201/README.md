@@ -1,11 +1,11 @@
 # Debuggercises 
 
-> 6/22/2020, 3:12:07 PM 
+> 6/22/2020, 3:26:51 PM 
 
 ## [exercises](../README.md)/08-functions-201 
 
 - [/0-example.js](#0-examplejs) - _pass_ 
-- [/1-exercise.js](#1-exercisejs) - _error_ 
+- [/1-exercise.js](#1-exercisejs) - _pass_ 
 - [/2-exercise.js](#2-exercisejs) - _pass_ 
 ---
 
@@ -92,22 +92,19 @@ console.assert(_3_actualLoop === _3_expect, 'Test 3 Loop');
 
 ## /1-exercise.js 
 
-> error 
+> pass 
 >
 > [review source](../../exercises/08-functions-201/1-exercise.js)
 
 ```txt
-UNCAUGHT: ReferenceError: x is not defined
-    at Object.<anonymous> (  ...  /exercises/08-functions-201/1-exercise.js:12:3)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
++ PASS: Test 1 A
++ PASS: Test 1 B
++ PASS: Test 2 A
++ PASS: Test 2 B
++ PASS: Test 3 A
++ PASS: Test 3 B
++ PASS: Test 4 A
++ PASS: Test 4 B
 ```
 
 ```js
@@ -117,9 +114,7 @@ UNCAUGHT: ReferenceError: x is not defined
 //  hint: demorgan
 
 const notAndA = (x, y) => {
-  return _;
-};
-
+ 
   let demorgan;
 
   if (x || y) {
@@ -133,7 +128,7 @@ const notAndA = (x, y) => {
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
-
+}
 /**
  * returns true if neither argument is true, false if either are true
  * @param {boolean} x

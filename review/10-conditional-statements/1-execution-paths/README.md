@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 3:12:07 PM 
+> 6/22/2020, 3:26:51 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/1-execution-paths 
 
@@ -354,10 +354,10 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 ```js
 function mystery(a, b) {
     let result = '';
-    if ( typeof a === typeof b ) {
-      result = 'path 2';
-    } else if ( Boolean(a) === false && Boolean(b) === false ) {
+    if ( Boolean(a) === false && Boolean(b) === false) {
       result = 'path 1';
+    } else if ( typeof a === typeof b ) {
+      result = 'path 2';
     } else {
       result = 'path 3';
     }

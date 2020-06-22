@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 3:12:07 PM 
+> 6/22/2020, 3:26:51 PM 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/2-local-param-global 
 

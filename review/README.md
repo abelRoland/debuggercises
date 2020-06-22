@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 3:12:07 PM 
+> 6/22/2020, 3:26:51 PM 
 
 ## /exercises 
 
@@ -103,7 +103,7 @@
     - [/ternary.js](./07-logical-operators/exercises/README.md#ternaryjs) - _pass_ 
 - [/08-functions-201](./08-functions-201/README.md)
   - [/0-example.js](./08-functions-201/README.md#0-examplejs) - _pass_ 
-  - [/1-exercise.js](./08-functions-201/README.md#1-exercisejs) - _error_ 
+  - [/1-exercise.js](./08-functions-201/README.md#1-exercisejs) - _pass_ 
   - [/2-exercise.js](./08-functions-201/README.md#2-exercisejs) - _pass_ 
 - [/09-block-scope](./09-block-scope/README.md)
   - [/1-missing-values](./09-block-scope/1-missing-values/README.md)

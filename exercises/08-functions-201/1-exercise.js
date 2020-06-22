@@ -4,9 +4,7 @@
 //  hint: demorgan
 
 const notAndA = (x, y) => {
-  return _;
-};
-
+ 
   let demorgan;
 
   if (x || y) {
@@ -20,7 +18,7 @@ const notAndA = (x, y) => {
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
-
+}
 /**
  * returns true if neither argument is true, false if either are true
  * @param {boolean} x
