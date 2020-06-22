@@ -65,9 +65,9 @@ const arg = true;
       (in VSCode or DevTools, a new entry on the callstack)
 
   call the function typeCheck passing
-    the value from the variable arg will be passed as arugment
+    the value from the variable arg will be passed as argument
   the new local scope will have two variables
-    parameter: ture
+    parameter: true
     result: undefined (it will get it's value later)
 */
 const returnedValue = typeCheck(arg);

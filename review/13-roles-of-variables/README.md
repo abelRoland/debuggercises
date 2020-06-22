@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 9:55:05 PM 
+> 6/22/2020, 10:25:41 PM 
 
 ## [exercises](../README.md)/13-roles-of-variables 
 
@@ -160,9 +160,9 @@ const arg = true;
       (in VSCode or DevTools, a new entry on the callstack)
 
   call the function typeCheck passing
-    the value from the variable arg will be passed as arugment
+    the value from the variable arg will be passed as argument
   the new local scope will have two variables
-    parameter: ture
+    parameter: true
     result: undefined (it will get it's value later)
 */
 const returnedValue = typeCheck(arg);

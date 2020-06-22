@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 9:55:05 PM 
+> 6/22/2020, 10:25:41 PM 
 
 ## [exercises](../../README.md)/[11-refactoring-conditionals](../README.md)/2-operator-to-statement 
 
