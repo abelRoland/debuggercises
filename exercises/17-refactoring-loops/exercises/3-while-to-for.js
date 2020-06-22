@@ -14,10 +14,8 @@ const mystery = (x) => {
   if (typeof x !== 'number') { throw new TypeError('x'); }
 
   let result = 0;
-  let i = 0;
-  while (i !== x) {
+  for (let i = 0; i !== x; i +=2) {
     result += i;
-    i += 2;
   }
 
   if (typeof result !== 'number') { throw new TypeError('result'); }

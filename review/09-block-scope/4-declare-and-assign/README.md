@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 10:48:21 PM 
+> 6/22/2020, 10:55:02 PM 
 
 ## [exercises](../../README.md)/[09-block-scope](../README.md)/4-declare-and-assign 
 
