@@ -6,12 +6,13 @@
  * @param {any} a
  * @param {any} b
  * @returns {string}
- */
+ 
 const mystery = (a, b) => {
   const result = String(a) || String(b);
   return result;
-};
+}; */
 
+const mystery = (a,b) => String(a) || String(b);
 
 const _1_arg1 = 'string';
 const _1_arg2 = '14';

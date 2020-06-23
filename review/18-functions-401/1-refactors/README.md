@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 10:55:02 PM 
+> 6/23/2020, 11:33:22 AM 
 
 ## [exercises](../../README.md)/[18-functions-401](../README.md)/1-refactors 
 
@@ -35,9 +35,14 @@
  * @param {any} b
  * @returns {any}
  */
-const mystery = (a, b) => (Boolean(a) !== Boolean(b))
-  || b ? a && b : !b && !a;
+// const mystery = (a, b) => (Boolean(a) !== Boolean(b))
+//  || b ? a && b : !b && !a;
 
+const mystery = (a, b) => {
+  const result = (Boolean(a) !== Boolean(b))
+  || b ? a && b : !b && !a;
+  return result;
+}
 
 const _1_arg1 = 1;
 const _1_arg2 = 1;
@@ -107,10 +112,16 @@ console.assert(_6_actual === _6_expect, 'Test 6');
  * @param {any} b
  * @returns {boolean}
  */
-const mystery = (a, b) => typeof a !== b
-  || !b
-  && (Number.isNaN(b) || isNaN(a));
+//const mystery = (a, b) => typeof a !== b
+//  || !b
+//  && (Number.isNaN(b) || isNaN(a));
 
+  const mystery = (a, b) => {
+    const result = (typeof a !== b)
+    || !b
+    && (Number.isNaN(b) || isNaN(a));
+    return result;
+  } 
 
 const _1_arg1 = 1;
 const _1_arg2 = 'number';
@@ -179,13 +190,15 @@ console.assert(_6_actual === _6_expect, 'Test 6');
  * @param {any} a
  * @param {any} b
  * @returns {number}
- */
+ 
 const mystery = (a, b) => {
   const result = Number(typeof a === typeof b)
     && (a > b) ? Number(a) : Number(b);
   return result;
-};
+}; */
 
+const mystery = (a,b) => Number(typeof a === typeof b)
+  && (a > b) ? Number(a) : Number(b);
 
 const _1_arg1 = 'string';
 const _1_arg2 = '14';
@@ -254,12 +267,13 @@ console.assert(Object.is(_6_actual, _6_expect), 'Test 6');
  * @param {any} a
  * @param {any} b
  * @returns {string}
- */
+ 
 const mystery = (a, b) => {
   const result = String(a) || String(b);
   return result;
-};
+}; */
 
+const mystery = (a,b) => String(a) || String(b);
 
 const _1_arg1 = 'string';
 const _1_arg2 = '14';
